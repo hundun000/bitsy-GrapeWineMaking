@@ -1,0 +1,1279 @@
+grape wine making game(jump "dlg_onStart")
+
+# BITSY VERSION 8.4
+
+! VER_MAJ 8
+! VER_MIN 4
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+0,82,204
+128,159,255
+255,255,255
+NAME blueprint
+
+ROOM room0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,UI_leftBracket,UI_holdingItemSlot,UI_rightBracket,0,0,UI_storagedGrapeWine,UI_x,UI_storageCountBit_1,UI_storageCountBit_0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESBrickWallTop0,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESWallpaperC5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESWallpaperC8,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB12,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop5,0,0,0
+0,0,0,til_indoor_NESBrickWallTop4,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESBrickWallTop2,til_indoor_NESFloorB5,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop1,til_indoor_NESBrickWallTop4,0,0,0
+0,0,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,til_indoor_NESFloorB8,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,0,0
+til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal3,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,0,til_indoor_NESBrickWall0,til_indoor_NESBrickWall1,til_indoor_NESBrickWall2,til_outdoor_fenchHorizonal1,til_outdoor_fenchHorizonal2,til_outdoor_fenchHorizonal2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room0
+PAL 0
+TUNE 2
+
+# ------ tile ------
+
+TIL a
+11111111
+10000001
+10000001
+10011001
+10011001
+10000001
+10000001
+11111111
+NAME block
+
+TIL til_indoor_NESBrickWall0
+10010000
+10010000
+10010000
+11111111
+10000001
+10000001
+10000001
+11111111
+NAME til_indoor_NESWall0
+WAL true
+
+TIL til_indoor_NESBrickWall1
+00010000
+00010000
+00010000
+11111111
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWall1
+WAL true
+
+TIL til_indoor_NESBrickWall2
+00010001
+00010001
+00010001
+11111111
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWall2
+WAL true
+
+TIL til_indoor_NESBrickWallTop0
+11111111
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+NAME til_indoor_NESBrickWallTop0
+WAL true
+
+TIL til_indoor_NESBrickWallTop1
+11111111
+10000000
+10000000
+10000000
+11111111
+10000000
+10000000
+11111111
+NAME til_indoor_NESBrickWallTop1
+WAL true
+
+TIL til_indoor_NESBrickWallTop2
+11111111
+00000001
+00000001
+00000001
+11111111
+00000001
+00000001
+11111111
+NAME til_indoor_NESBrickWallTop2
+WAL true
+
+TIL til_indoor_NESBrickWallTop3
+11111111
+10000001
+10000001
+10000001
+11111111
+10000001
+10000001
+11111111
+NAME til_indoor_NESBrickWallTop3
+WAL true
+
+TIL til_indoor_NESBrickWallTop4
+10000001
+10000001
+10000001
+10000001
+11111111
+10000001
+10000001
+11111111
+NAME til_indoor_NESBrickWallTop4
+WAL true
+
+TIL til_indoor_NESBrickWallTop5
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+NAME til_indoor_NESBrickWallTop5
+WAL true
+
+TIL til_indoor_NESFloorB12
+11111111
+10101010
+01010101
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB12
+
+TIL til_indoor_NESFloorB1
+11111111
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+10000000
+NAME til_indoor_NESFloorB1
+
+TIL til_indoor_NESFloorB2
+11111111
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB2
+
+TIL til_indoor_NESFloorB3
+11111111
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+00000001
+NAME til_indoor_NESFloorB3
+
+TIL til_indoor_NESFloorB4
+10000000
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+10000000
+NAME til_indoor_NESFloorB4
+
+TIL til_indoor_NESFloorB5
+00000000
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+00000000
+NAME til_indoor_NESFloorB5
+
+TIL til_indoor_NESFloorB6
+00000001
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+00000001
+NAME til_indoor_NESFloorB6
+
+TIL til_indoor_NESFloorB7
+10000000
+10000000
+10000000
+10001000
+10000000
+10000000
+10000000
+11111111
+NAME til_indoor_NESFloorB7
+
+TIL til_indoor_NESFloorB8
+00000000
+00000000
+00000000
+00001000
+00000000
+00000000
+00000000
+11111111
+NAME til_indoor_NESFloorB8
+
+TIL til_indoor_NESFloorB9
+00000001
+00000001
+00000001
+00001001
+00000001
+00000001
+00000001
+11111111
+NAME til_indoor_NESFloorB9
+
+TIL til_indoor_NESWallpaperC5
+10101010
+10101010
+10101010
+10101010
+01010101
+01010101
+01010101
+01010101
+NAME til_indoor_NESWallpaperC5
+WAL true
+
+TIL til_indoor_NESWallpaperC8
+10101010
+10101010
+10101010
+10101010
+01010101
+01010101
+01010101
+11111111
+NAME til_indoor_NESWallpaperC8
+WAL true
+
+TIL til_outdoor_fenchHorizonal1
+00011000
+00100100
+00100100
+11111111
+10000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal1
+WAL true
+
+TIL til_outdoor_fenchHorizonal2
+00011000
+00100100
+00100100
+11111111
+00000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal2
+WAL true
+
+TIL til_outdoor_fenchHorizonal3
+00011000
+00100100
+00100100
+11111111
+00000001
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchHorizonal3
+WAL true
+
+TIL til_outdoor_fenchCorner1
+00011000
+00100100
+11100100
+10111111
+10100000
+10111111
+10100100
+10111100
+NAME til_outdoor_fenchCorner1
+WAL true
+
+TIL til_outdoor_fenchCorner2
+00011000
+00100100
+00100111
+11111101
+00000101
+11111101
+00100101
+00111101
+NAME til_outdoor_fenchCorner2
+WAL true
+
+TIL til_outdoor_fenchCorner3
+10111000
+10100100
+10100100
+11111111
+10000000
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchCorner3
+WAL true
+
+TIL til_outdoor_fenchCorner4
+00011101
+00100101
+00100101
+11111111
+00000001
+11111111
+00100100
+00111100
+NAME til_outdoor_fenchCorner4
+WAL true
+
+TIL til_outdoor_fenchLeft0
+11100000
+10100000
+10111000
+10101000
+10101000
+10111000
+10100000
+10100000
+NAME til_outdoor_fenchLeft0
+WAL true
+
+TIL til_outdoor_fenchLeft1
+10100000
+10100000
+10111000
+10101000
+10101000
+10111000
+10100000
+10100000
+NAME til_outdoor_fenchLeft1
+WAL true
+
+TIL til_outdoor_fenchRight0
+00000111
+00000101
+00011101
+00010101
+00010101
+00011101
+00000101
+00000101
+NAME til_outdoor_fenchRight0
+WAL true
+
+TIL til_outdoor_fenchRight1
+00000101
+00000101
+00011101
+00010101
+00010101
+00011101
+00000101
+00000101
+NAME til_outdoor_fenchRight1
+WAL true
+# ------ SPR ------
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+POS room0 9,14
+
+SPR spr_trashCan
+00000000
+00011000
+11111111
+01000010
+01000010
+01000010
+01000010
+01111110
+NAME spr_trashCan
+DLG dlg_trashCan
+POS room0 10,13
+
+SPR spr_grapeVine_working_0
+00000000
+00000100
+00000110
+11100100
+01001100
+00010100
+00001100
+00000100
+>
+00000000
+00000100
+00000110
+01110100
+00101100
+00010100
+00001100
+00000100
+NAME spr_grapeVine_working_0
+DLG dlg_grapeVine_working
+
+SPR spr_grapeVine_working_1
+00111110
+00010101
+00000110
+11100100
+01001100
+00010100
+00111100
+01000010
+>
+01110110
+00100101
+00000110
+01110100
+00101100
+00010100
+00111100
+01000010
+NAME spr_grapeVine_working_1
+DLG dlg_grapeVine_working
+
+SPR spr_grapeVine_idle_0
+00000000
+00000100
+00000110
+00000100
+00001100
+00010100
+00001100
+00000100
+NAME spr_grapeVine_idle_0
+DLG dlg_grapeVine_idle
+POS room0 8,13
+
+SPR spr_grapeVine_idle_1
+00000110
+00000101
+00000110
+00000100
+00001100
+00010100
+00111100
+01000010
+NAME spr_grapeVine_idle_1
+DLG dlg_grapeVine_idle
+POS room0 8,14
+
+SPR spr_crushMachine_working
+11111110
+00010000
+11111110
+10000010
+10000010
+10000010
+11111110
+01000100
+>
+00111000
+00010000
+11111110
+10000010
+10000010
+10000010
+11111110
+01000100
+NAME spr_crushMachine_working
+DLG dlg_crushMachine_working
+
+SPR spr_crushMachine_idle
+11111110
+00010000
+11111110
+10000010
+10000010
+10000010
+11111110
+01000100
+NAME spr_crushMachine_idle
+DLG dlg_crushMachine_idle
+POS room0 5,6
+
+SPR spr_fermentationMachine_workingPhase1
+01000100
+10000010
+10000010
+11111110
+11110110
+11111110
+11111110
+11111110
+>
+01000100
+10000010
+10000010
+11111110
+11111110
+11111110
+11110110
+11111110
+NAME spr_fermentationMachine_workingPhase1
+DLG dlg_fermentationMachine_workingPhase1
+
+SPR spr_fermentationMachine_workingPhase2
+01000100
+10000010
+10000010
+11111110
+11110110
+11011110
+11110110
+11111110
+>
+01000100
+10000010
+10000010
+11111110
+11011110
+11110110
+11011110
+11111110
+NAME spr_fermentationMachine_workingPhase2
+DLG dlg_fermentationMachine_workingPhase2
+
+SPR spr_fermentationMachine_idle
+01000100
+10000010
+10000010
+10000010
+10000010
+10000010
+10000010
+11111110
+NAME spr_fermentationMachine_idle
+DLG dlg_fermentationMachine_idle
+POS room0 6,6
+
+SPR spr_heaterMachine_working
+00010000
+01000100
+00000000
+11111110
+10000010
+10000010
+11111110
+01000100
+>
+00010000
+10000010
+00010000
+11111110
+10000010
+10000010
+11111110
+01000100
+NAME spr_heaterMachine_working
+DLG dlg_heaterMachine_working
+
+SPR spr_heaterMachine_idle
+00000000
+00000000
+00000000
+11111110
+10000010
+10000010
+11111110
+01000100
+NAME spr_heaterMachine_idle
+DLG dlg_heaterMachine_idle
+POS room0 7,6
+
+SPR spr_barrelMachine_working_0
+00000000
+00111111
+01001000
+10000100
+10000100
+10000100
+01001000
+00111111
+NAME spr_barrelMachine_working_0
+DLG dlg_barrelMachine_working
+
+SPR spr_barrelMachine_working_1
+00000010
+11110001
+00001000
+00000100
+00000100
+00000100
+00001000
+11110000
+>
+00000001
+11110010
+00001000
+00000100
+00000100
+00000100
+00001000
+11110000
+NAME spr_barrelMachine_working_1
+DLG dlg_barrelMachine_working
+
+SPR spr_barrelMachine_idle_0
+00000000
+00111111
+01001000
+10000100
+10000100
+10000100
+01001000
+00111111
+NAME spr_barrelMachine_idle_0
+DLG dlg_barrelMachine_idle
+POS room0 8,6
+
+SPR spr_barrelMachine_idle_1
+00000000
+11110000
+00001000
+00000100
+00000100
+00000100
+00001000
+11110000
+NAME spr_barrelMachine_idle_1
+DLG dlg_barrelMachine_idle
+POS room0 9,6
+
+SPR spr_storage_0
+11111111
+11000001
+10100001
+10010001
+10001001
+10000101
+10000011
+11111111
+NAME spr_storage_0
+DLG dlg_storage
+POS room0 10,6
+
+SPR spr_storage_1
+11111111
+11000001
+10100001
+10010001
+10001001
+10000101
+10000011
+11111111
+NAME spr_storage_1
+DLG dlg_storage
+POS room0 10,5
+
+# ------ UI ------
+
+TIL UI_leftBracket
+00000000
+00000110
+00000100
+00000100
+00000100
+00000100
+00000110
+00000000
+NAME UI_leftBracket
+
+TIL UI_rightBracket
+00000000
+01100000
+00100000
+00100000
+00100000
+00100000
+01100000
+00000000
+NAME UI_rightBracket
+
+TIL UI_storagedGrapeWine
+00000000
+01100000
+00100000
+00100000
+00100000
+00100000
+01100000
+00000000
+NAME UI_storagedGrapeWine
+
+TIL UI_storagedGrapeWine
+00011000
+00011000
+00111100
+00111100
+00111100
+00111100
+00111100
+00111100
+NAME UI_storagedGrapeWine
+
+TIL UI_x
+00000000
+00000000
+00000000
+01000100
+00101000
+00010000
+00101000
+01000100
+NAME UI_x
+
+
+TIL UI_holdingItemSlot
+00111000
+01000100
+00001000
+00010000
+00100000
+00000000
+00100000
+00000001
+TIL UI_holdingItemSlot
+
+TIL UI_storageCountBit_0
+00111000
+01000100
+00001000
+00010000
+00100000
+00000000
+00100000
+00000001
+NAME UI_storageCountBit_0
+
+TIL UI_storageCountBit_1
+00111000
+01000100
+00001000
+00010000
+00100000
+00000000
+00100000
+00000001
+NAME UI_storageCountBit_1
+
+TIL UI_holdingItem_none
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME UI_holdingItem_none
+
+TIL UI_holdingItem_grapeBunch
+00100000
+00010000
+01111110
+11111111
+00111110
+00011100
+00011000
+00001000
+NAME UI_holdingItem_grapeBunch
+
+TIL UI_holdingItem_grapeJuice
+00000000
+00001000
+00010100
+00100100
+01000010
+01000010
+01000010
+00111100
+NAME UI_holdingItem_grapeJuice
+
+TIL UI_holdingItem_grapeAlcohol
+00000000
+00001000
+00010100
+00110100
+01100010
+01100010
+01110010
+00111100
+NAME UI_holdingItem_grapeAlcohol
+
+TIL UI_holdingItem_grapeWine
+00011000
+00011000
+00111100
+00111100
+00111100
+00111100
+00111100
+00111100
+NAME UI_holdingItem_grapeWine
+
+# ------ source_char ------
+
+TIL source_char_empty
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME source_char_empty
+
+TIL source_char_0
+00111000
+01000100
+01001100
+01010100
+01100100
+01000100
+00111000
+00000000
+NAME source_char_0
+
+TIL source_char_1
+00010000
+00110000
+00010000
+00010000
+00010000
+00010000
+00111000
+00000000
+NAME source_char_1
+
+TIL source_char_2
+00111000
+01000100
+00000100
+00011000
+00100000
+01000000
+01111100
+00000000
+NAME source_char_2
+
+TIL source_char_3
+00111000
+01000100
+00000100
+00111000
+00000100
+01000100
+00111000
+00000000
+NAME source_char_3
+
+TIL source_char_4
+00001000
+00011000
+00101000
+01001000
+01111100
+00001000
+00001000
+00000000
+NAME source_char_4
+
+TIL source_char_5
+01111100
+01000000
+01000000
+01111000
+00000100
+01000100
+00111000
+00000000
+NAME source_char_5
+
+TIL source_char_6
+00011000
+00100000
+01000000
+01111000
+01000100
+01000100
+00111000
+00000000
+NAME source_char_6
+
+TIL source_char_7
+01111100
+00000100
+00001000
+00010000
+00100000
+00100000
+00100000
+00000000
+NAME source_char_7
+
+TIL source_char_8
+00111000
+01000100
+01000100
+00111000
+01000100
+01000100
+00111000
+00000000
+NAME source_char_8
+
+TIL source_char_9
+00111000
+01000100
+01000100
+00111100
+00000100
+00001000
+00110000
+00000000
+NAME source_char_9
+
+# ------ dlg of logic ------
+
+DLG dlg_onStart
+"""
+{var_grapeVineState = 1}(jumpNow "dlg_updateUI")
+"""
+NAME dlg_onStart
+
+DLG dlg_updateUI
+"""
+{
+  - var_grapeVineState == 1 ?
+    (replaceArrayNow "2, SPR, spr_grapeVine_idle, SPR, spr_grapeVine_working, room0")
+  - var_grapeVineState == 0 ?
+    (replaceArrayNow "2, SPR, spr_grapeVine_working, SPR, spr_grapeVine_idle, room0")
+}{
+  - var_crushMachineState == 1 ?
+    (replaceAllNow "SPR, spr_crushMachine_idle, SPR, spr_crushMachine_working, room0")
+  - var_crushMachineState == 0 ?
+    (replaceAllNow "SPR, spr_crushMachine_working, SPR, spr_crushMachine_idle, room0")
+}{
+  - var_fermentationMachineState == 2 ?
+    (replaceAllNow "SPR, spr_fermentationMachine_workingPhase1, SPR, spr_fermentationMachine_workingPhase2, room0")
+  - var_fermentationMachineState == 1 ?
+    (replaceAllNow "SPR, spr_fermentationMachine_idle, SPR, spr_fermentationMachine_workingPhase1, room0")
+  - var_fermentationMachineState == 0 ?
+    (replaceAllNow "SPR, spr_fermentationMachine_workingPhase2, SPR, spr_fermentationMachine_idle, room0")
+}{
+  - var_heaterMachineState == 1 ?
+    (replaceAllNow "SPR, spr_heaterMachine_idle, SPR, spr_heaterMachine_working, room0")
+  - var_heaterMachineState == 0 ?
+    (replaceAllNow "SPR, spr_heaterMachine_working, SPR, spr_heaterMachine_idle, room0")
+}{
+  - var_barrelMachineState == 1 ?
+    (replaceArrayNow "2, SPR, spr_barrelMachine_idle, SPR, spr_barrelMachine_working, room0")
+  - var_barrelMachineState == 0 ?
+    (replaceArrayNow "2, SPR, spr_barrelMachine_working, SPR, spr_barrelMachine_idle, room0")
+}(imageV2Now "TIL, UI_holdingItemSlot, *var_holdingItem")(updateNumberImagesNow "TIL, UI_storageCountBit_, source_char_, source_char_empty, 2, var_storageCount, true")
+"""
+NAME dlg_updateUI
+
+# ------ dlg of sprite ------
+
+DLG dlg_trashCan
+"""
+{
+  - var_holdingItem == "UI_holdingItem_none" ?
+    This is a trash can.
+  - else
+    You throw you're holding into the trash can.  {var_holdingItem = "UI_holdingItem_none"}(jump "dlg_updateUI")
+}
+"""
+NAME dlg_trashCan
+
+DLG dlg_grapeVine_working
+"""
+{
+  - var_holdingItem == "UI_holdingItem_none" ?
+    You take a bunch of grapes.{var_holdingItem = "UI_holdingItem_grapeBunch"}(jump "dlg_updateUI")
+  - else
+    You can't hold anymore.  
+}
+"""
+NAME dlg_grapeVine_working
+
+DLG dlg_grapeVine_idle
+"""
+Here is empty.
+"""
+NAME dlg_grapeVine_idle
+
+DLG dlg_crushMachine_working
+"""
+{
+  - var_holdingItem == "UI_holdingItem_none" ?
+    You take some grape juice.{var_holdingItem = "UI_holdingItem_grapeJuice"}{var_crushMachineState = 0}(jump "dlg_updateUI")
+  - else
+    You can't hold anymore.  
+}
+"""
+NAME dlg_crushMachine_working
+
+DLG dlg_crushMachine_idle
+"""
+{
+  - var_holdingItem == "UI_holdingItem_grapeBunch" ?
+    You put grapes into the crush machine.{var_holdingItem = "UI_holdingItem_none"}{var_crushMachineState = 1}(jump "dlg_updateUI")
+  - else
+    The crush machine need grapes.  
+}
+"""
+NAME dlg_crushMachine_idle
+
+DLG dlg_fermentationMachine_workingPhase2
+"""
+{
+  - var_holdingItem == "UI_holdingItem_none" ?
+    You take some grape alcohol.{var_holdingItem = "UI_holdingItem_grapeAlcohol"}{var_fermentationMachineState = 0}(jump "dlg_updateUI")
+  - else
+    You can't hold anymore.  
+}
+"""
+NAME dlg_fermentationMachine_workingPhase2
+
+DLG dlg_fermentationMachine_workingPhase1
+"""
+{
+  - var_heaterMachineState == 0 ?
+    You need to turn on the heater for fermentation.
+  - else
+    Keeping fermentation...{var_fermentationMachineState = 2}(jump "dlg_updateUI")
+}
+"""
+NAME dlg_fermentationMachine_workingPhase1
+
+DLG dlg_fermentationMachine_idle
+"""
+{
+  - var_holdingItem == "UI_holdingItem_grapeJuice" ?
+    You put grape juice into the fermentation machine.{var_holdingItem = "UI_holdingItem_none"}{var_fermentationMachineState = 1}(jump "dlg_updateUI")
+  - else
+    The fermentation machine need grape juice.  
+}
+"""
+NAME dlg_fermentationMachine_idle
+
+DLG dlg_heaterMachine_working
+"""
+You turn off the heater.{var_heaterMachineState = 0}(jump "dlg_updateUI")
+"""
+NAME dlg_heaterMachine_working
+
+DLG dlg_heaterMachine_idle
+"""
+You turn on the heater.{var_heaterMachineState = 1}(jump "dlg_updateUI")
+"""
+NAME dlg_heaterMachine_idle
+
+DLG dlg_barrelMachine_working
+"""
+{
+  - var_holdingItem == "UI_holdingItem_none" ?
+    You take a bottle of grape wine.{var_holdingItem = "UI_holdingItem_grapeWine"}{var_barrelMachineState = 0}(jump "dlg_updateUI")
+  - else
+    You can't hold anymore.  
+}
+"""
+NAME dlg_barrelMachine_working
+
+DLG dlg_barrelMachine_idle
+"""
+{
+  - var_holdingItem == "UI_holdingItem_grapeAlcohol" ?
+    You put grape alcohol into the barrel.{var_holdingItem = "UI_holdingItem_none"}{var_barrelMachineState = 1}(jump "dlg_updateUI")
+  - else
+    The barrel need grape alcohol.  
+}
+"""
+NAME dlg_barrelMachine_idle
+
+DLG dlg_storage
+"""
+{
+  - var_holdingItem == "UI_holdingItem_grapeWine" ?
+    You put grape wine into the storage.{var_holdingItem = "UI_holdingItem_none"}{var_storageCount = var_storageCount + 1}(jump "dlg_updateUI")
+  - else
+    The storage need grape wine.  
+}
+"""
+NAME dlg_storage
+
+
+# ------ vars ------
+
+VAR var_holdingItem
+UI_holdingItem_none
+
+VAR var_grapeVineState
+0
+
+VAR var_crushMachineState
+0
+
+VAR var_fermentationMachineState
+0
+
+VAR var_heaterMachineState
+0
+
+VAR var_barrelMachineState
+0
+
+VAR var_storageCount
+0
+
+# ------ tunes ------
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
